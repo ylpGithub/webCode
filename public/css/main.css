@@ -1,0 +1,100 @@
+html,body{
+    width:100%;
+    height:100%;
+    margin:0 auto;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size:12px;
+}
+div{
+    padding: 0 0;
+    margin: 0 0;
+}
+p{
+    color: rgb(153, 162, 169);
+    line-height: 30px;
+}
+.container{
+    background:#fff;
+    width: 100%;
+    overflow-x: hidden;
+}
+.set-flex{
+    display:-webkit-box;
+    display:-moz-box;
+    display:-ms-flexbox;
+    display:-webkit-flex;
+    display:flex;
+    -webkit-flex-flow:row wrap;
+    flex-flow:row nowrap;
+}
+header{
+    height:100px;
+}
+.logo{
+    line-height: 100px;
+    padding-left: 1em;
+    font-size: 32px;
+    justify-content:flex-start;
+}
+nav{
+    justify-content:flex-end;
+    margin:0 auto;
+}
+.navigation{
+    list-style:none;
+    margin:0;
+    background:#fff;
+    height:100px;
+    line-height:100px;
+}
+.navigation a{
+    text-decoration:none;
+    display:block;
+    padding-right:2em;
+    font-size: 16px;
+    color:#000;
+}
+.navigation a:hover{
+    color: #02b2b5;
+}
+.navigation .active{
+    color:#02b2b5;
+}
+footer{
+    background:#222222;
+    width:100%;
+    height:auto;
+    padding: 50px 0;
+    color: #fff;
+}
+.kf-meg{
+    flex: 5;
+}
+.add-meg{
+    flex: 6;
+}
+.kf-meg table tr td{
+    line-height:35px;
+    font-size:14px;
+}
+.weixin-box{
+    flex: 2;
+    padding-left: 5%;
+    text-align: center;
+}
+.add-meg p{
+    color:#fff;
+    line-height:26px;
+    font-size:14px;
+    height: auto;
+}
+.kf-meg{
+    padding:15px 10px;
+}
+.add-cont{
+    border-left:thin solid  rgba(190, 190, 190, 0.5);
+    padding-left: 30%;
+}
+.kf-meg .phone-call{
+    font-size: 22px;
+}

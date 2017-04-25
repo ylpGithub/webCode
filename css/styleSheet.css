@@ -1,0 +1,165 @@
+/*首页*/
+/*轮播图*/
+.page-swiper{
+    position: relative;
+    height: 600px;
+}
+.swiper-container {
+    width: 100%;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    background: #f5f5f5;
+}
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    height: 600px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+.swiper-wrapper .swiper-img{
+    width: 1366px;
+    height: 600px;
+}
+.enterprise-faith{
+    background: #fff;
+    width: auto;
+    height: auto;
+    padding: 40px 5%;
+    position: relative;
+}
+.faith-text{
+    width:60%;;
+}
+.faith-title{
+    font-size:20px;
+}
+.faith-text p{
+    width: 100%;
+    line-height: 30px;
+    word-break: break-all;
+}
+.faith-btn{
+    width: 140px;
+    height: 40px;
+    position: absolute;
+    top:80px;
+    right:5%;
+}
+.faith-btn>a{
+    width: 160px;
+    height: 40px;
+    color: #fff;
+    background: #06b3b9;
+    opacity: 0.8;
+    border-style: none;
+    font-size: 16px;
+    border-radius: 10px;
+    padding: 10px 35px;
+}
+.faith-btn a:hover,.faith-btn a:focus{
+    opacity: 1.2;
+    cursor: pointer;
+
+}
+.product-play{
+    background:#f5f5f5;
+    width:auto;
+    padding: 40px 2%;
+}
+.com-title{
+    text-align: center;
+}
+.com-title p{
+    font-size: 16px;
+}
+.hr-bar b{
+    color: rgb(6, 178, 182);
+    font-weight: bold;
+}
+.product-cont ul,.partner-show ul{
+    display:-webkit-flex;
+    display: flex;
+    -webkit-flex-flow:row wrap;
+    flex-flow:row wrap;
+    width: 100%;
+}
+.product-cont ul li{
+   list-style: none;
+   justify-content:flex-start;
+   padding: 20px 6% 20px 10%;
+   flex:0 0 17%;
+}
+.partner-show{
+    width: 100%;
+    height:auto;
+    background: #fff;
+    padding: 40px 2%;
+}
+.partner-show ul li{
+    list-style: none;
+    justify-content:flex-start;
+    padding: 20px 2% 0 2%;
+    flex:0 0 11%;
+}
+.partner-show img{
+    border:1px solid #ccc;
+    width: 100%;
+    padding: 5px 5px;
+}
+
+/*产品页面*/
+.pro-show{
+    background:url('../img/product.jpg') no-repeat;
+    width: 100%;
+    height: 400px;
+}
+.pro-intro{
+    display:-webkit-flex;
+    display: flex;
+    -webkit-flex-flow:row wrap;
+    flex-flow:row wrap;
+    width: 84%;
+    margin: 13px auto;
+}
+.pro-box ul{
+    list-style: none;
+    justify-content:flex-start;
+    padding: 0 10px 20px 10px;
+    flex:0 0 17%;
+}
+.pro-box ul li{
+    list-style: none;
+    justify-content:flex-start;
+    padding: 15px 1% 20px 2%;
+    flex:0 0 30%;
+}
+.pro-box ul li:hover{
+    cursor: pointer;
+    opacity: 0.8;
+    -webkit-box-shadow:1px 1px 3px #292929;
+    -moz-box-shadow:1px 1px 3px #292929;
+    box-shadow:1px 1px 3px #292929;
+}
+.pro-box ul li img{
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+.pro-intro p{
+    word-break: break-all;
+    line-height: 25px;
+}
+.pro-intro img{
+    width: 100%;
+}

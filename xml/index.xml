@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<itemsview>
+    <item>
+        <cpmc>CRM系统</cpmc>
+        <cpms>CRM系统功能：客户资源管理、财务管理、项目管理、合同管理、工作流管理。</cpms>
+    </item>
+    <item>
+        <cpmc>PIF系统</cpmc>
+        <cpms>佣金结算系统功能有：佣金结算、财务审批、客户资源管理。</cpms>
+    </item>
+    <item>
+        <cpmc>账户系统</cpmc>
+        <cpms>股票买卖、行情查询、银证转账、账户余额、开户、销户。</cpms>
+    </item>
+    <item>
+        <cpmc>电子签名系统</cpmc>
+        <cpms>识别签名人、表明签名人对内容的认可。</cpms>
+    </item>
+    <item>
+        <cpmc>CRM系统</cpmc>
+        <cpms>CRM系统功能：客户资源管理、财务管理、项目管理、合同管理。</cpms>
+    </item>
+</itemsview>
